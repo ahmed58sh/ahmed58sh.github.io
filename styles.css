@@ -10148,3 +10148,21 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* My Styles */
+
+@media (min-width: 992px) {
+  .transition {
+    background: #495057;
+    border-radius: 25px;
+  }
+
+  .trans_a {
+    color: #fff !important
+  }
+  
+  .transition:hover {
+    box-shadow: 0 15px 15px rgba(0,0,0,0.3);
+    transform: scale(1.1, 1.1);
+  }
+}
